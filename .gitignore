@@ -3,6 +3,10 @@
 *.xlsx
 *.xls
 
+# Ignore all text files within the data folder
+data/*/*.txt
+data/.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
